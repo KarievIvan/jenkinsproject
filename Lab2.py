@@ -1,3 +1,6 @@
+import os
+os.popen('/usr/sbin/hddtemp -q %s' % device, encoding='windows-1252')
+
 class DitsadokQueue:
     def __init__(self):
         self.queue = []
