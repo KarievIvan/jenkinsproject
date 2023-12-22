@@ -5,7 +5,8 @@ class TestDitsadokQueue(unittest.TestCase):
     
     def setUp(self):
         self.ditsadok_queue = DitsadokQueue()
-
+    def method1(self):
+        pass
  
 
 if __name__ == '__main__':
