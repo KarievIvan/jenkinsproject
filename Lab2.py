@@ -11,7 +11,7 @@ class DitsadokQueue:
             removed_child = self.queue.pop(0)
             print(f"{removed_child} вийшов із черги.")
         else:
-            print("Черга порожня.".encode("UTF-8"))
+            print("Черга порожня.".decode("UTF-8"))
 
     def display_queue(self):
         if self.queue:
